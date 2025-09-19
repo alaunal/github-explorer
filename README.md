@@ -33,24 +33,24 @@ A modern React application built with Next.js, TypeScript, and Tailwind CSS that
 ### Installation
 
 1. Clone the repository:
-\`\`\`bash
-git clone <repository-url>
+```bash
+git clone https://github.com/alaunal/github-explorer.git
 cd github-explorer
-\`\`\`
+```
 
 2. Install dependencies:
-\`\`\`bash
+```bash
 npm install
 # or
 yarn install
-\`\`\`
+```
 
 3. Run the development server:
-\`\`\`bash
+```bash
 npm run dev
 # or
 yarn dev
-\`\`\`
+```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -104,32 +104,20 @@ No authentication is required, but the API has rate limits for unauthenticated r
 The application can be deployed to any platform that supports Next.js:
 
 ### Vercel (Recommended)
-\`\`\`bash
+```bash
 npm run build
 vercel --prod
-\`\`\`
+```
 
 ### GitHub Pages
-\`\`\`bash
+```bash
 npm run build
 npm run export
 # Deploy the `out` folder to GitHub Pages
-\`\`\`
+```
 
 ### Other Platforms
-\`\`\`bash
+```bash
 npm run build
 npm start
-\`\`\`
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -am 'Add feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License.
+```
